@@ -1,0 +1,59 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width", initial-scale=1.0>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Docoline</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+	<div class="wrapper">
+		<section class="form signup">
+			<header>DOCOLINE</header>
+			<form action="zet2.php" method="post">
+				<div class="name-details">
+				<div class="field input">
+					<label>Name</label>
+					<input type="text" name="Name" placeholder="Name">
+				</div>
+				<div class="field input">
+					<label>Email Address</label>
+					<input type="text" placeholder="Enter your email">
+				</div>
+				<div class="field input">
+					<label>Phone Number</label>
+					<input type="text" name="Phone" placeholder="Enter your mobile number">
+				</div>
+				<div class="field input">
+					<label>City</label>
+					<input type="text" placeholder="Enter your city">
+				</div>
+				<div class="field input">
+					<label>Suffering from</label>
+					<input type="text" placeholder="Enter the problem you have">
+				</div>
+				<div class="field input">
+					<label>Date of Appointment</label>
+					<input type="date" name="Date" id="start" name="trip-start"
+       								value="2021-07-22"
+       								min="1900-01-01" max="2021-12-31">
+				</div>
+				<div class="field input">
+					<label>Timing</label>
+					<input type="text" name="Time" placeholder="Enter the time"></i>
+				</div>
+				<div>
+					<label>Gender:</label>
+					<input type="radio" name="gender" value="Male" id="Gender">Male 
+  					<input type="radio" name="gender" value="Female" id="Gender">Female
+  				</div>
+				<div class="field button">
+					<input type="submit" value="Book Appointment">
+				</div>
+			</form>
+		</section>
+	</div>
+</body>
+</html>
